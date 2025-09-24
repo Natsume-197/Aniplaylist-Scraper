@@ -1,7 +1,7 @@
 # Aniplaylist-Scraper
 
-A small script for mass extracting music data from AniPlaylist.
-
+Script for extracting all songs and metadata from AniPlaylist in a structured format.
+ 
 ## Description
 
 This project collects as many song records ("hits") as possible, organized by season. At the moment this script It is designed to:
@@ -16,12 +16,14 @@ The script is intended for personal or educational use only. Avoid mass usage th
 
 After running the script, the output will be saved in the `./output` folder:
 
+```
 output/
 ├── 2017.json
 ├── 2018.json
 ├── Winter_2021.json
 ├── Fall_2023.json
 └── ... (one file per season)
+```
 
 Each JSON file contains an array of song records with fields such as:
 
