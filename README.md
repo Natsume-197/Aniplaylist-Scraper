@@ -4,13 +4,13 @@ Script for extracting all songs and metadata from AniPlaylist in a structured fo
  
 ## Description
 
-This project collects as many song records ("hits") as possible, organized by season. At the moment this script It is designed to:
+This script collects as many song records ("hits") as possible, organized by season. At the moment this script It is designed to:
 
 - Extract structured data in JSON format.
 - Handle large volumes of records (>1000 hits per category) and their limitations with Algolia.
 - Automatically avoid duplicates.
 
-The script is intended for personal or educational use only. Avoid mass usage that could affect the public Algolia API. 
+This script is intended for personal or educational use only. Avoid large-scale usage that could impact the public Algolia API. Developed to provide access to AniPlaylist song data since no official API documentation is available.
 
 ## Project Structure
 
